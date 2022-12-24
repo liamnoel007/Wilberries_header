@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li {
+    list-style-type: none;
+    display: inline;
+}
+
+.header_container {
+    display: flex;
+    height: 310px;
+    border: 1px solid black;
+    background: linear-gradient(90deg, #BC3D96 0%, #7D256F 100%);
+}
+
+.header {
+    display: flex;
+}
+
+.header_top {
+    border: 1px solid black;
+    /* margin-left: 226px;
+    padding-top: 46px; */
+    display: flex;
+}
+
+.header_top_left {
+    display: flex;
+}
+
+
+.header_top_right {
+    /* display: flex; */
+}
