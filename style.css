@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
 
 ul, li {
@@ -11,6 +12,8 @@ ul, li {
 
 .header_container {
     display: flex;
+    align-items: center;
+    justify-content: center;
     height: 310px;
     border: 1px solid black;
     background: linear-gradient(90deg, #BC3D96 0%, #7D256F 100%);
