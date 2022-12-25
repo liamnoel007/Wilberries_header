@@ -15,16 +15,16 @@ ul, li {
     align-items: center;
     justify-content: center;
     height: 310px;
-    border: 1px solid black;
     background: linear-gradient(90deg, #BC3D96 0%, #7D256F 100%);
 }
 
 .header {
+    border: 1px solid black;
     display: flex;
+    flex-direction: column;
 }
 
 .header_top {
-    border: 1px solid black;
     /* margin-left: 226px;
     padding-top: 46px; */
     display: flex;
@@ -37,4 +37,9 @@ ul, li {
 
 .header_top_right {
     /* display: flex; */
+}
+
+.header_bottom {
+    margin-top: 53px;
+    display: flex;
 }
